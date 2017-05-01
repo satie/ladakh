@@ -4,8 +4,8 @@ html, body {
   background: #fff;
   margin: 0 0;
   overflow: hidden;
-  color: #444;
-  font: 3vw/1.2 'Source Serif Pro', serif;
+  color: #666;
+  font: 3vw/1.2 'Josefin Sans', sans-serif;
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -15,9 +15,7 @@ html, body {
 h1 {
   margin: 1vw 0;
   padding: 0;
-  color: #666;
   font-size: 6vw;
-  font-family: 'Josefin Sans', sans-serif;
   width: 100%;
   text-align: center;
 }
@@ -71,6 +69,11 @@ a:active {
 
 .justify {
   text-align: justify;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* Your custom styles below */
