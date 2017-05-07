@@ -3,9 +3,9 @@
 
     const gulp = r('gulp');
     const babel = r('gulp-babel');
-    
+
     // TODO: Transpile all ES6 code to ES5 for browser compatibility.
-    
+
     // gulp.task('transpile', () => {
     //     return gulp.src('src/*.js')
     //         .pipe(babel({ "presets": ["es2015"] }))
