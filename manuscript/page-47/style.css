@@ -1,10 +1,7 @@
 body {
-<<<<<<< HEAD
-    background-image: url(https://raw.githubusercontent.com/satie/ladakh/master/assets/images/wildlife/TibetanSandgrouse01_fullbleed.jpg);
-=======
-    background-image: url(../../assets/images/wildlife/RedFox5_fullbleed.jpg);
->>>>>>> b19e5a13e19f6f9ac91fcbb63de6229152826e20
+    background-image: url(https://raw.githubusercontent.com/satie/ladakh/master/assets/images/wildlife/LittleOwl01.jpg);
     background-position: right center;
     height: 100vh;
     background-size: 200% 100%;
 }
+
