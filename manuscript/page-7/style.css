@@ -1,0 +1,16 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/satie/ladakh/master/assets/images/nature/BusToKargil01_fullbleed.jpg);
+    background-position: right center;
+    height: 100vh;
+    background-size: 200% 100%;
+}
+
+.chapter-title {
+  color: #fff;
+}
+
+.top {
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+}
