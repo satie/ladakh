@@ -4,3 +4,9 @@ body {
     height: 100vh;
     background-size: 200% 100%;
 }
+
+.top {
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+}
