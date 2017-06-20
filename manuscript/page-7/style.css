@@ -5,8 +5,10 @@ body {
     background-size: 200% 100%;
 }
 
-.top {
-    height: 50vh;
-    width: 100vw;
-    text-align: center;
+
+.desc {
+    position: absolute;
+    top: 8vh;
+    right: 10vw;
+    color: white;
 }
