@@ -5,8 +5,10 @@ body {
     height: 100vh;
 }
 
-.top {
-    height: 50vh;
-    width: 100vw;
-    text-align: center;
+.desc {
+    position: absolute;
+    bottom: 10vh;
+    right: 25vw;
+    color: white;
+    width: 30%;
 }
