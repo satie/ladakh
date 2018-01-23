@@ -1,7 +1,14 @@
-
 body {
-    background-image: url(https://raw.githubusercontent.com/satie/ladakh/master/assets/images/nature/KhardungLa01_fullbleed.jpg);
+    background-image: url(https://raw.githubusercontent.com/satie/ladakh/master/assets/images/nature/BusToKargil01_fullbleed.jpg);
     background-position: right center;
     height: 100vh;
     background-size: 200% 100%;
+}
+
+
+.desc {
+    position: absolute;
+    top: 8vh;
+    right: 10vw;
+    color: white;
 }
