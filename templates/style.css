@@ -1,11 +1,11 @@
-@import url('//fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('//fonts.googleapis.com/css?family=Cormorant+Garamond');
 
 html, body {
   background: #fff;
   margin: 0 0;
   overflow: hidden;
   color: #666;
-  font: 3vw/1.2 'Josefin Sans', sans-serif;
+  font: 3vw/1.2 'Cormorant Garamond', serif;
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
