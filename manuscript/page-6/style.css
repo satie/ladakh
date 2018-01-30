@@ -5,3 +5,12 @@ body {
   background-size: 200% 100%;
   color: white;
 }
+
+.editors-note {
+  position: absolute;
+  bottom: 20vh;
+  background: rgba(0,0,0,0.3);
+  padding: 3vw;
+  border-radius: 1vw;
+  width: 80%;
+}
