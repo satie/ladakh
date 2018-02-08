@@ -40,7 +40,7 @@ a:focus,
 a:active,
 a:hover {
   outline: 0 none;
-  text-shadow: 0 0 2px #0cf;
+  text-decoration: underline;
 }
 
 a:active {

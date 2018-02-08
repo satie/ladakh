@@ -1,24 +1,18 @@
 body {
-  background-image: url(https://raw.githubusercontent.com/satie/ladakh/master/assets/images/nature/BusToKargil01_fullbleed.jpg);
-  background-position: right center;
-  height: 100vh;
-  background-size: 200% 100%;
-  color: white;
+    background-image: url(https://res.cloudinary.com/satie/image/upload/c_fill,f_auto,q_auto/v1517241513/nature/BusToKargil01_fullbleed );
+    background-position: right center;
+    height: 100vh;
+    background-size: 200% 100%;
+    color: white;
 }
 
-
-.desc {
-  position: absolute;
-  top: 8vh;
-  right: 10vw;
-}
 
 .photographers-note {
-  position: absolute;
-  bottom: 20vh;
-  background: rgba(0,0,0,0.3);
-  padding: 3vw;
-  border-radius: 1vw;
-  width: 80%;
-  color: #ffd;
+    position: absolute;
+    bottom: 20vh;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 3vw;
+    border-radius: 1vw;
+    width: 80%;
+    color: #ffd;
 }

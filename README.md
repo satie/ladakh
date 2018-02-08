@@ -61,10 +61,10 @@ PROJECT/
 │   ├── images
 │   └── scripts
 ├── cover
-│   ├── back.jpg
+│   ├── back 
 │   ├── cover.psd
-│   ├── front.jpg
-│   ├── spine.jpg
+│   ├── front 
+│   ├── spine 
 │   └── spine.psd
 ├── license.txt
 ├── manuscript
