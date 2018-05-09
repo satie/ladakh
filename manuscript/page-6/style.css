@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://res.cloudinary.com/satie/image/upload/c_fill,f_auto,q_auto/v1517241513/nature/BusToKargil01_fullbleed );
+    background-position: left center;
+    height: 100vh;
+    background-size: 200% 100%;
+    color: white;
+}
+
+.desc {
+    position: absolute;
+    top: 5vh;
+    left: 14vw;
+}

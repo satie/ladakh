@@ -1,0 +1,16 @@
+body {
+  background-image: url(https://res.cloudinary.com/satie/image/upload/c_fill,f_auto,q_auto/v1517158333/misc/satiesharma);
+  background-position: left center;
+  height: 100vh;
+  background-size: 200% 100%;
+  color: white;
+}
+
+.editors-note {
+  position: absolute;
+  bottom: 20vh;
+  background: rgba(0,0,0,0.3);
+  padding: 3vw;
+  border-radius: 1vw;
+  width: 80%;
+}
