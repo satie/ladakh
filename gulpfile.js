@@ -46,7 +46,10 @@
             server: "./",
             port: 4567,
             notify: false,
-            host: 'bubblin.com'
+            host: 'bubblin.com',
+            snippetOptions: {
+            	blacklist: ["build/renders/*"]
+            }
         });
 
         // Watch for deleted directories
