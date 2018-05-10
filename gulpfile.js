@@ -46,7 +46,6 @@
             server: "./",
             port: 4567,
             notify: false,
-            host: 'bubblin.com',
             snippetOptions: {
             	blacklist: ["build/renders/*"]
             }
