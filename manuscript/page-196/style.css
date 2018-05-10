@@ -9,8 +9,13 @@ body {
 .editors-note {
   position: absolute;
   bottom: 20vh;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.6);
   padding: 3vw;
   border-radius: 1vw;
   width: 80%;
+}
+
+a{
+	color: #0af;
+	text-decoration: none;
 }
