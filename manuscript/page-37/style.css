@@ -1,0 +1,14 @@
+body {
+    background-image: url(https://res.cloudinary.com/satie/image/upload/c_fill,f_auto,q_auto/spiritual/MuralThikse01_fullbleed );
+    background-position: right center;
+    background-size: 200% auto;
+    height: 100vh;
+}
+
+.desc {
+    position: absolute;
+    bottom: 10vh;
+    right: 25vw;
+    color: white;
+    width: 30%;
+}
