@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://res.cloudinary.com/satie/image/upload/c_fill,f_auto,q_auto/nature/HanleSunset07_fullbleed );
+    background-position: left center;
+    height: 100vh;
+    background-size: 200% auto;
+}
+
+.desc {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    color: white;
+}

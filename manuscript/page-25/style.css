@@ -5,9 +5,3 @@ body {
     background-size: 200% auto;
 }
 
-.desc {
-    position: absolute;
-    bottom: 10vh;
-    right: 10vw;
-    color: white;
-}
