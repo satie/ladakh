@@ -6,5 +6,6 @@
     "HEAD": "html"
   },
   "name": "ladakh",
-  "type": "magazine"
+  "type": "magazine",
+  "book_id": 534
 }
