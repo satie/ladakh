@@ -1,0 +1,53 @@
+body {
+  font: 3vw/1.15 "PT Sans Narrow", sans-serif; }
+
+.leaf {
+  height: 100vh;
+  width: 80%;
+  margin: auto; }
+
+.justify {
+  text-align: unset; }
+
+.center {
+  text-align: auto;
+  margin: unset; }
+
+.inner {
+  margin: 15% auto;
+  width: 100%; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    line-height: 3vw;
+    list-style: outside none none;
+    margin: 0; }
+
+a {
+  background: white;
+  color: #5e5555;
+  float: left;
+  width: 90%;
+  clear: both;
+  text-decoration: none;
+  margin: 1px 0;
+  padding: 1.5% 5%;
+  -webkit-border-radius: 1vw;
+  -moz-border-radius: 1vw;
+  -o-border-radius: 1vw;
+  -ms-border-radius: 1vw;
+  border-radius: 1vw; }
+  a:hover {
+    background: #119747;
+    color: white;
+    float: left;
+    width: 90%;
+    clear: both;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: none; }
+  a span {
+    float: right;
+    font-size: 80%; }
