@@ -11,16 +11,16 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-    background-image: url(https://res.cloudinary.com/satie/image/upload/c_fill,f_auto,q_auto/v1517241523/nature/PangongSunset01);
+    background-image: url(https://res.cloudinary.com/satie/image/upload/c_fill,f_auto,q_auto/nature/PangongSunset01 );
     background-position: center center;
     height: 100vh;
     width: 100vw;
     background-size: 100% 100%;
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(5px);
-    filter: blur(0px);
+    -webkit-filter: blur(1px) grayscale(10%) brightness(90%);
+    -moz-filter: blur(1px) grayscale(10%) brightness(90%);
+    -o-filter: blur(1px) grayscale(10%) brightness(90%);
+    -ms-filter: blur(1px) grayscale(10%) brightness(90%);
+    filter: blur(2px) grayscale(50%) brightness(90%);
     -moz-transition: all 300ms;
     -o-transition: all 300ms;
     -webkit-transition: all 300ms;
@@ -38,30 +38,27 @@ body {
 }
 
 .face:hover::before {
-    -webkit-filter: blur(2px) grayscale(50%) brightness(99%);
-    -moz-filter: blur(2px) grayscale(50%) brightness(99%);
-    -o-filter: blur(2px) grayscale(50%) brightness(99%);
-    -ms-filter: blur(2px) grayscale(50%) brightness(99%);
-    filter: blur(2px) grayscale(50%) brightness(99%);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
 }
 
 .top {
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     text-align: center;
-    margin-top: 30vh;
 }
 
 .bottom {
-    height: 30vh;
+    height: 50vh;
     width: 100vw;
     text-align: center;
 }
 
-
 .title {
-    font-size: 25vw;
-    text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 15vw;
 }
 
 .subtitle {
@@ -77,7 +74,4 @@ h2 {
 
 p {
     font-size: 4vw;
-}
-.red {
-	background: red;
 }
