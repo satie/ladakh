@@ -37,13 +37,15 @@ body {
     width: 100vw;
 }
 
+/*
 .face:hover::before {
-    -webkit-filter: blur(2px) grayscale(50%) brightness(99%);
-    -moz-filter: blur(2px) grayscale(50%) brightness(99%);
-    -o-filter: blur(2px) grayscale(50%) brightness(99%);
-    -ms-filter: blur(2px) grayscale(50%) brightness(99%);
-    filter: blur(2px) grayscale(50%) brightness(99%);
+    -webkit-filter: blur(2px) grayscale(90%) brightness(99%);
+    -moz-filter: blur(2px) grayscale(90%) brightness(99%);
+    -o-filter: blur(2px) grayscale(90%) brightness(99%);
+    -ms-filter: blur(2px) grayscale(90%) brightness(99%);
+    filter: blur(2px) grayscale(90%) brightness(99%);
 }
+*/
 
 .top {
     height: 40vh;
