@@ -7,9 +7,10 @@ body {
 }
 
 
-.photographers-note {
+figcaption {
     position: absolute;
     bottom: 20vh;
+    right: 2vw;
     background: rgba(0, 0, 0, 0.3);
     padding: 3vw;
     border-radius: 1vw;

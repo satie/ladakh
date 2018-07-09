@@ -91,3 +91,8 @@ a:active {
 h1.chapter-title {
   color: #fff;
 }
+
+time {
+	font-size: 80%;
+	color: #ccc;
+}
