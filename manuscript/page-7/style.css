@@ -6,14 +6,14 @@ body {
     color: white;
 }
 
-
 figcaption {
     position: absolute;
-    bottom: 20vh;
+    bottom: 5vh;
     right: 2vw;
     background: rgba(0, 0, 0, 0.3);
-    padding: 3vw;
+    padding: 1vw;
     border-radius: 1vw;
-    width: 80%;
+    /* width: 80%; */
     color: #ffd;
+    font-size: 16px;
 }
