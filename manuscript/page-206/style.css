@@ -22,10 +22,10 @@ a {
 
 .photographers-note {
     position: absolute;
-    bottom: 20vh;
+    bottom: 10vh;
     background: rgba(0, 0, 0, 0.5);
     padding: 3vw;
-    border-radius: 0 2vw 2vw 0 ;
+    border-radius: 0 2vw 2vw 0;
     width: 80%;
     color: #ffd;
 }
