@@ -4,3 +4,15 @@ body {
     height: 100vh;
     background-size: 200% auto;
 }
+
+figcaption-right-bottom20 {
+    position: absolute;
+    bottom: 20vh;
+    right: 5vw;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1vw;
+    border-radius: 1vw;
+    /* width: 80%; */
+    color: #ffd;
+    font-size: 16px;
+}

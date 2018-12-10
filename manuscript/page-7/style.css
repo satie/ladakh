@@ -5,15 +5,3 @@ body {
     background-size: 200% 100%;
     color: white;
 }
-
-figcaption {
-    position: absolute;
-    bottom: 5vh;
-    right: 2vw;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 1vw;
-    border-radius: 1vw;
-    /* width: 80%; */
-    color: #ffd;
-    font-size: 16px;
-}
