@@ -24,8 +24,9 @@ a {
     position: absolute;
     bottom: 10vh;
     background: rgba(0, 0, 0, 0.5);
-    padding: 3vw;
+    padding: 10vw;
     border-radius: 0 2vw 2vw 0;
-    width: 80%;
+    width: 60%;
     color: #ffd;
+    font-size: 20px;
 }
