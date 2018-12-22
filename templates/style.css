@@ -101,7 +101,7 @@ time {
 
 .image-caption {
     text-align: center;
-    font-size: 16px;
+    font-size: 3.5vw;
 }
 
 figcaption-right {
@@ -113,7 +113,7 @@ figcaption-right {
     border-radius: 1vw;
     /* width: 80%; */
     color: #ffd;
-    font-size: 16px;
+    font-size: 3.5vw;
 }
 
 figcaption-left {
@@ -125,5 +125,5 @@ figcaption-left {
     border-radius: 1vw;
     /* width: 80%; */
     color: #ffd;
-    font-size: 16px;
+    font-size: 3.5vw;
 }
