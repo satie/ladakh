@@ -1,11 +1,12 @@
 {
+  "name": "Ladakh",
   "mode": {
     "HTML": "html",
     "CSS": "css",
     "JS": "js",
     "HEAD": "html"
   },
-  "name": "Ladakh",
   "type": "magazine",
+  "has_page_numbers": false,  
   "book_id": 534
 }
