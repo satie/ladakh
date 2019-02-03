@@ -182,14 +182,42 @@ Some photos are fullbleed taking up two middle pages like a center spread.
 
 ![fullbleed image](fullbleed.png)
 
-* manuscript - sections
-* bookiza server
+#### Sections
+
+Although there are no chapters in the book, photos are loosely divided into the following sections
+* The route to Ladakh via Manali and Srinagar
+* Buddhist monasteries in Leh and nearby areas
+* Ladakhi art and rituals
+* Ladakhi landscapes
+* Wildlife found in Ladakh
+
+I intended to have text for these sections in the second edition.
+
+## Development environment
+
+I used [Visual Studio Code](https://code.visualstudio.com) to write the HTML and CSS code for the book. [Bookiza](https://bookiza.io) can run a local server to test how the pages look. Run the `bookiza server` command in the book directory to load the book in the browser.
+
+```console
+$ cd ladakh
+$ bookiza server
+```
+
+The local bookiza server watches for changes in content and reloads the book in the browser in near real time. 
+
+Source code of the book is maintained in a [github repository](https://github.com/satie/ladakh). This allows source control and collaboration.
 
 ## Issues
 
-* bookiza performance with large number of pages
-* image load performance (move to cloudinary)
+I faced two main issues as the number of pages and, thus, the number of images increased from the expected 50 to more than 200. 
 
-## Conclusion
+* The first was the performance of the bookiza server with large number of pages. I raised this issue with the developers and they were able to improve the performance significantly over a couple of releases of bookiza. They had some books with a large number of pages that did not have performance issues but none of those were photo books. This leads us to the next problem.
 
-* improvements
+* The number and size of images, including a lot of fullbleed ones, affected the page load times. I was loading all images from github directly without any device specific optimizations. [Marvin](https://bubblin.io/marvin-marvin-danig) suggested using a content delivery network (CDN) that serves optimized images for various devices, and recommended [Cloudinary](https://cloudinary.com). The free tier was enough for my needs, and I uploaded all images to Cloudinary. I also updated the image locations in the HTML and CSS to serve images from Cloudinary. This improved the page load times significantly to not be an issue anymore.
+
+## Improvements
+
+Given that this is a living book, bubblin allows me to make updates and fix problems that I or the readers discover. It also allows me to incorporate suggestions as I find time. Some of the improvements in my list are 
+
+* Add text and narrative around sections
+* Add new images from my trip in 2018
+* Include timelapse videos in the book
