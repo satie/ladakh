@@ -1,6 +1,6 @@
 ## Introduction
 
-This is an article on how I wrote a [photo book about Ladakh](https://bubblin.io/book/ladakh-by-satie-sharma/1) on [bubblin](https://www.bubblin.io).
+This is an article on how I made a [photo-book](https://bubblin.io/book/ladakh-by-satie-sharma/1) on Ladakh-The Trans-himalayan Region between south east China and India.
 
 Bubblin provides two methods for writing books -
 * a simple [online web editor](https://bubblin.io/docs/tutorial) for writing simple short books
