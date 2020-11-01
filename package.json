@@ -11,7 +11,7 @@
   "homepage": "https://bubblin.io/satie",
   "repository": {
     "type": "git",
-    "url": "git+https://github/project/url/here"
+    "url": "git+https://github.com/satie/ladakh.git"
   },
   "scripts": {
     "postinstall": "node ./crust/scripts/ready.js"
