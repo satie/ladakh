@@ -2305,7 +2305,7 @@ gulp-util@^3.0.3:
     through2 "^2.0.0"
     vinyl "^0.5.0"
 
-gulp@^4.0.0:
+gulp@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/gulp/-/gulp-4.0.2.tgz#543651070fd0f6ab0a0650c6a3e6ff5a7cb09caa"
   dependencies:
