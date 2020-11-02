@@ -1445,9 +1445,9 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
 
-delayed@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/delayed/-/delayed-1.0.2.tgz#b8cc24b7e671a42ac464ca4dbec2bd4099da6baa"
+delayed@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/delayed/-/delayed-2.0.0.tgz#7a338c997fbc6988b57e7fd6177298934666e747"
 
 delegates@^1.0.0:
   version "1.0.0"
