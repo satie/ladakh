@@ -2,7 +2,7 @@ name: "Dependabot Automerge - Action"
 on:
   pull_request:
 jobs:
-  worker:
+  auto-merge:
     runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
     steps:
