@@ -1,4 +1,4 @@
-name: "Dependabot Automerge - Action"
+name: Dependabot auto-merge
 on:
   pull_request:
 jobs:
