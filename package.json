@@ -22,7 +22,7 @@
     "browser-sync": "^2.26.3",
     "chalk": "^2.4.1",
     "del": "^3.0.0",
-    "delayed": "^1.0.1",
+    "delayed": "^2.0.0",
     "fs-extra": "^7.0.0",
     "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0",
