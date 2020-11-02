@@ -23,7 +23,7 @@
     "chalk": "^2.4.1",
     "del": "^6.0.0",
     "delayed": "^2.0.0",
-    "fs-extra": "^7.0.0",
+    "fs-extra": "^9.0.1",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-compile-handlebars": "^0.6.1",
