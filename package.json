@@ -31,7 +31,7 @@
     "gulp-haml": "^1.0.1",
     "gulp-if": "^3.0.0",
     "gulp-less": "^4.0.1",
-    "gulp-markdown": "^5.1.0",
+    "gulp-markdown": "^6.0.0",
     "gulp-postcss": "^9.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-stylus": "^2.7.0",

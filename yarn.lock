@@ -2204,11 +2204,11 @@ gulp-less@^4.0.1:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-markdown@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/gulp-markdown/-/gulp-markdown-5.1.0.tgz"
+gulp-markdown@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-markdown/-/gulp-markdown-6.0.0.tgz#1957607ebce5391aeb8683ae284d464a0cbbaf10"
   dependencies:
-    marked "^1.1.0"
+    marked "^2.0.1"
     plugin-error "^1.0.1"
     through2 "^4.0.2"
 
@@ -3143,9 +3143,9 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^1.1.0:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/marked/-/marked-1.2.2.tgz"
+marked@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.1.tgz#5e7ed7009bfa5c95182e4eb696f85e948cefcee3"
 
 matchdep@^2.0.0:
   version "2.0.0"
