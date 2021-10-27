@@ -19,7 +19,7 @@
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "book-length": "^1.2.1",
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.6",
     "chalk": "^4.1.0",
     "del": "^6.0.0",
     "delayed": "^2.0.0",
