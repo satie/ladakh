@@ -24,7 +24,7 @@
     "del": "^6.0.0",
     "delayed": "^2.0.0",
     "fs-extra": "^11.1.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "gulp-babel": "^8.0.0",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-concat": "^2.6.1",
