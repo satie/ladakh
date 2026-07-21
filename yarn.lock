@@ -40,11 +40,22 @@
   dependencies:
     "@types/node" "*"
 
+"@types/expect@^1.20.4":
+  version "1.20.4"
+  resolved "https://registry.yarnpkg.com/@types/expect/-/expect-1.20.4.tgz#8288e51737bf7e3ab5d7c77bfa695883745264e5"
+
 "@types/node@*", "@types/node@>=10.0.0":
   version "26.1.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-26.1.1.tgz#bad758d601e97d6cf457d204ee76a35fce7bd119"
   dependencies:
     undici-types "~8.3.0"
+
+"@types/vinyl@^2.0.9":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@types/vinyl/-/vinyl-2.0.12.tgz#17642ca9a8ae10f3db018e9f885da4188db4c6e6"
+  dependencies:
+    "@types/expect" "^1.20.4"
+    "@types/node" "*"
 
 "@types/ws@^8.5.12":
   version "8.18.1"
@@ -847,6 +858,10 @@ chalk@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.2.0.tgz#249623b7d66869c673699fb66d65723e54dfcfb3"
 
+chalk@^5.3.0:
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.6.2.tgz#b1238b6e23ea337af71c7f8a295db5af0c158aea"
+
 chokidar@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.1.tgz#ee9ce7bbebd2b79f49f304799d5468e31e14e68a"
@@ -1144,6 +1159,10 @@ easy-extender@^2.3.4:
   resolved "https://registry.npmjs.org/easy-extender/-/easy-extender-2.3.4.tgz"
   dependencies:
     lodash "^4.17.10"
+
+easy-transform-stream@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/easy-transform-stream/-/easy-transform-stream-1.0.1.tgz#faffdd1839a03d14d76e694bd2e6315551a6a215"
 
 eazy-logger@^4.1.0:
   version "4.1.0"
@@ -1617,19 +1636,26 @@ gulp-less@^5.0.0:
     through2 "^4.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-markdown@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/gulp-markdown/-/gulp-markdown-6.0.0.tgz#1957607ebce5391aeb8683ae284d464a0cbbaf10"
+gulp-markdown@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-markdown/-/gulp-markdown-8.0.0.tgz#073fec7f898b362668be5465f943b8d433a53b40"
   dependencies:
-    marked "^2.0.1"
-    plugin-error "^1.0.1"
-    through2 "^4.0.2"
+    gulp-plugin-extras "^0.3.0"
+    marked "^9.1.5"
 
 gulp-match@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/gulp-match/-/gulp-match-1.1.0.tgz"
   dependencies:
     minimatch "^3.0.3"
+
+gulp-plugin-extras@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/gulp-plugin-extras/-/gulp-plugin-extras-0.3.0.tgz#ad2c15eb7d7153a75556c59ee81d84693ec42330"
+  dependencies:
+    "@types/vinyl" "^2.0.9"
+    chalk "^5.3.0"
+    easy-transform-stream "^1.0.1"
 
 gulp-postcss@^9.0.0:
   version "9.0.0"
@@ -2286,9 +2312,9 @@ map-stream@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
 
-marked@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.1.tgz#5e7ed7009bfa5c95182e4eb696f85e948cefcee3"
+marked@^9.1.5:
+  version "9.1.6"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-9.1.6.tgz#5d2a3f8180abfbc5d62e3258a38a1c19c0381695"
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -3121,7 +3147,7 @@ through2@^3.0.1:
     inherits "^2.0.4"
     readable-stream "2 || 3"
 
-through2@^4.0.0, through2@^4.0.2:
+through2@^4.0.0:
   version "4.0.2"
   resolved "https://registry.npmjs.org/through2/-/through2-4.0.2.tgz"
   dependencies:
