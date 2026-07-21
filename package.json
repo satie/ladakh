@@ -37,6 +37,6 @@
     "gulp-stylus": "^2.7.0",
     "js-cookie": "^3.0.8",
     "path": "^0.12.7",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.10.0"
   }
 }
