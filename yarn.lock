@@ -699,11 +699,9 @@ bl@^5.0.0:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
-book-length@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/book-length/-/book-length-1.2.1.tgz"
-  dependencies:
-    shelljs "0.8.4"
+book-length@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/book-length/-/book-length-2.1.2.tgz#55d2a7d765d71f64099a28282e85731cc6679f6a"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -2866,14 +2864,6 @@ setprototypeof@1.1.1:
 setprototypeof@1.2.0, setprototypeof@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
-
-shelljs@0.8.4:
-  version "0.8.4"
-  resolved "https://registry.npmjs.org/shelljs/-/shelljs-0.8.4.tgz"
-  dependencies:
-    glob "^7.0.0"
-    interpret "^1.0.0"
-    rechoir "^0.6.2"
 
 shelljs@^0.8.5:
   version "0.8.5"
