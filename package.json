@@ -20,7 +20,7 @@
     "babel-preset-env": "^1.7.0",
     "book-length": "^2.1.2",
     "browser-sync": "^3.0.4",
-    "chalk": "^5.2.0",
+    "chalk": "^6.0.0",
     "del": "^8.0.1",
     "delayed": "^2.0.0",
     "fs-extra": "^11.4.0",
