@@ -689,8 +689,8 @@ book-length@^2.1.2:
   resolved "https://registry.yarnpkg.com/book-length/-/book-length-2.1.2.tgz#55d2a7d765d71f64099a28282e85731cc6679f6a"
 
 brace-expansion@^1.1.7:
-  version "1.1.11"
-  resolved "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz"
+  version "1.1.18"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.18.tgz#3ce74d89885136be1535341f8c3d4425c29a5cab"
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
