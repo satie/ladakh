@@ -34,9 +34,9 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@sindresorhus/merge-streams@^2.1.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
+"@sindresorhus/merge-streams@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-4.0.0.tgz#abb11d99aeb6d27f1b563c38147a72d50058e339"
 
 "@socket.io/component-emitter@~3.1.0":
   version "3.1.2"
@@ -994,15 +994,15 @@ debug@^4.3.2, debug@~4.4.1:
   dependencies:
     ms "^2.1.3"
 
-del@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/del/-/del-8.0.1.tgz#86772fe3a8c9f91bad0d7c6f79e04c6f310e50ac"
+del@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/del/-/del-9.0.1.tgz#776dbb6c8fbbd57e73f3b5dd4d1aa9e63aca4dae"
   dependencies:
-    globby "^14.0.2"
+    globby "^16.2.4"
     is-glob "^4.0.3"
-    is-path-cwd "^3.0.0"
+    is-path-cwd "^4.0.1"
     is-path-inside "^4.0.0"
-    p-map "^7.0.2"
+    p-map "^7.0.8"
     presentable-error "^0.0.1"
     slash "^5.1.0"
 
@@ -1443,16 +1443,17 @@ globals@^9.18.0:
   version "9.18.0"
   resolved "https://registry.npmjs.org/globals/-/globals-9.18.0.tgz"
 
-globby@^14.0.2:
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-14.1.0.tgz#138b78e77cf5a8d794e327b15dce80bf1fb0a73e"
+globby@^16.2.4:
+  version "16.2.4"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-16.2.4.tgz#2108d8e952843366b6f1df9cc5f6e7b3ac24630a"
   dependencies:
-    "@sindresorhus/merge-streams" "^2.1.0"
+    "@sindresorhus/merge-streams" "^4.0.0"
     fast-glob "^3.3.3"
-    ignore "^7.0.3"
-    path-type "^6.0.0"
+    ignore "^7.0.5"
+    is-path-inside "^4.0.0"
+    micromatch "^4.0.8"
     slash "^5.1.0"
-    unicorn-magic "^0.3.0"
+    unicorn-magic "^0.4.0"
 
 glogg@^1.0.0:
   version "1.0.2"
@@ -1744,9 +1745,9 @@ ieee754@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
 
-ignore@^7.0.3:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.6.tgz#6a57aaef4c90df27ac3590875d29e8f11988c88e"
+ignore@^7.0.5:
+  version "7.0.12"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.12.tgz#36048ce2e8d8e0f97fd87863a1cb595ea0a5c69f"
 
 image-size@~0.5.0:
   version "0.5.5"
@@ -1842,9 +1843,9 @@ is-number@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz"
 
-is-path-cwd@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/is-path-cwd/-/is-path-cwd-3.0.0.tgz#889b41e55c8588b1eb2a96a61d05740a674521c7"
+is-path-cwd@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/is-path-cwd/-/is-path-cwd-4.0.1.tgz#02f00109330c259444205a9526cca3cf90610894"
 
 is-path-inside@^4.0.0:
   version "4.0.0"
@@ -2313,9 +2314,9 @@ opn@5.3.0:
   dependencies:
     is-wsl "^1.1.0"
 
-p-map@^7.0.2:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.6.tgz#5b6ee7f1a775faa48599c8d4420f6a39833cd387"
+p-map@^7.0.8:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.1.1.tgz#df42589224b93b798eb4d16dbf965bb15a522d34"
 
 parse-filepath@^1.0.2:
   version "1.0.2"
@@ -2362,10 +2363,6 @@ path-root@^0.1.1:
   resolved "https://registry.npmjs.org/path-root/-/path-root-0.1.1.tgz"
   dependencies:
     path-root-regex "^0.1.0"
-
-path-type@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/path-type/-/path-type-6.0.0.tgz#2f1bb6791a91ce99194caede5d6c5920ed81eb51"
 
 path@^0.12.7:
   version "0.12.7"
@@ -3008,9 +3005,9 @@ undici-types@~8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-8.3.0.tgz#44e9fc9f3244648cdea35e4f9bb2d681e9410809"
 
-unicorn-magic@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/unicorn-magic/-/unicorn-magic-0.3.0.tgz#4efd45c85a69e0dd576d25532fbfa22aa5c8a104"
+unicorn-magic@^0.4.0:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/unicorn-magic/-/unicorn-magic-0.4.1.tgz#b7a367e6e10c96da7e6b9b007d69c11c7d558dee"
 
 universalify@^0.1.0:
   version "0.1.2"
